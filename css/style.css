@@ -1,0 +1,69 @@
+/* Styles for Job Portfolio */
+/* Obinna Ezeka */
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: lightblue;
+}
+
+.navigation-link{
+    border: 2px solid transparent;
+}
+
+.navigation-link:hover{
+    text-decoration: none;
+    border-width: thick;
+    border-bottom: 4px solid orange;
+    transition: 0.3s ease;
+}
+.main-container{
+    min-height: 100vh;
+    
+}
+.main-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-row h1{
+    font-size: 5rem;
+}
+.main-row img{
+    width: auto;
+    height: 56.9rem;
+}
+#about{
+    background: green;
+    border-radius: 0.5rem;
+}
+.card{
+    border-bottom: 8px solid orange;
+}
+.btn-warning:hover{
+    text-decoration:none;
+    border-width: thick;
+    border-color: green ;
+    transition: 0.5s ease;
+}
+.btn-primary:hover{
+    text-decoration: none;
+    border-width: thick;
+    border-color: orange;
+    transition: 0.5s ease;
+}
+#social-media{
+    background-color: lightcyan;
+}
+.media-link{
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid lightblue;
+    border-radius: 0.5rem;
+}
+#about{
+    padding: 8px;
+}
